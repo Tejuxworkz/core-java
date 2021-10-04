@@ -1,23 +1,18 @@
-class ExamConst{
+class Exam{
 
-	public static String universityName;
-	public static int fees;
+	public static String universityName="VTU";
+	public static int fees=1350;
  
-	public ExamConst(String universityName,int fees){
-		
-		System.out.println("Object is created");
-			this.universityName=universityName;
-			this.fees=fees;
-	}
- 
+	
  
 	public static void allow(String[] hallTicket){
 
 		System.out.println("Start of allow method with HallTicket");
 
 	if(hallTicket!=null){
-		    gethallTicketDetails(hallTicket);
+		gethallTicketDetails(hallTicket);
 	}
+
 	else{
 		System.out.println("No HallTicket Found");
 	}

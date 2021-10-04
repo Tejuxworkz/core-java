@@ -1,15 +1,11 @@
-class MusicalInstrumentsConstructor{
+class MusicalInstruments{
 
 	public String name;
 	public double price;
 	public String frequency;
 	public String type;
 	
-	public MusicalInstrumentsConstructor(String nm,double pri,String freq,String type1){
-		name=nm;
-		price=pri;
-		frequency=freq;
-		type=type1;
+	public MusicalInstruments(){
 	System.out.println("Musical Instrument object is created");
 	}
 	
